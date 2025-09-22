@@ -1,0 +1,13 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+html[dir="rtl"] { font-family: Vazirmatn, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+
+/* کارت و اینپوت‌ها */
+.card { @apply rounded-3xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-900; }
+.input { @apply w-full rounded-2xl border border-gray-200 dark:border-slate-700 bg-white dark:bg-slate-950 px-3 py-2 outline-none; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2; }
